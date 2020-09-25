@@ -39,7 +39,7 @@ class MathsUtilsTest {
 	}
 	
 	@Test
-	@DisplayName("Tester une exception")
+	@DisplayName("Test Exception")
 	void testDivide ()
 	{
 	

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.javabrains.MathsUtilsTest" time="0.033" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\elitebook\.m2\repository\org\apache\maven\surefire\surefire-booter\2.22.1\surefire-booter-2.22.1.jar;C:\Users\elitebook\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.1\surefire-api-2.22.1.jar;C:\Users\elitebook\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.1\surefire-logger-api-2.22.1.jar;C:\Users\elitebook\eclipse-workspace\junit-5-basics\target\test-classes;C:\Users\elitebook\eclipse-workspace\junit-5-basics\target\classes;C:\Users\elitebook\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\elitebook\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\elitebook\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\elitebook\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\elitebook\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\elitebook\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\elitebook\.m2\repository\org\junit\vintage\junit-vintage-engine\5.7.0\junit-vintage-engine-5.7.0.jar;C:\Users\elitebook\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\elitebook\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\elitebook\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\2.22.1\surefire-junit-platform-2.22.1.jar;C:\Users\elitebook\.m2\repository\org\junit\platform\junit-platform-launcher\1.3.1\junit-platform-launcher-1.3.1.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="UTC"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\elitebook\AppData\Local\Temp\surefire6833045589395827825 2020-09-24T12-13-32_350-jvmRun1 surefire1379727345478934725tmp surefire_07347781835164835381tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\elitebook\eclipse-workspace\junit-5-basics\target\test-classes;C:\Users\elitebook\eclipse-workspace\junit-5-basics\target\classes;C:\Users\elitebook\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\elitebook\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\elitebook\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\elitebook\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\elitebook\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\elitebook\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\elitebook\.m2\repository\org\junit\vintage\junit-vintage-engine\5.7.0\junit-vintage-engine-5.7.0.jar;C:\Users\elitebook\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\elitebook\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\elitebook"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_261"/>
+    <property name="basedir" value="C:\Users\elitebook\eclipse-workspace\junit-5-basics"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="elitebook"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\elitebook\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ELITEB~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\elitebook\eclipse-workspace\junit-5-basics"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_25/bin/../jre/lib/amd64;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;%M3%;C:\Users\elitebook\AppData\Roaming\npm;C:\Users\elitebook\AppData\Local\Microsoft\WindowsApps;C:\Users\elitebook\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_25\bin;;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testComputeCircleArea" classname="io.javabrains.MathsUtilsTest" time="0.025">
+    <failure message="Should return right circle area ==&gt; expected: &lt;314.0&gt; but was: &lt;1519.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Should return right circle area ==> expected: <314.0> but was: <1519.0>
+	at io.javabrains.MathsUtilsTest.testComputeCircleArea(MathsUtilsTest.java:23)
+]]></failure>
+  </testcase>
+  <testcase name="test" classname="io.javabrains.MathsUtilsTest" time="0"/>
+</testsuite>

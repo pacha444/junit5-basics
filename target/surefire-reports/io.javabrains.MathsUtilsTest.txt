@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: io.javabrains.MathsUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! - in io.javabrains.MathsUtilsTest
+testComputeCircleArea  Time elapsed: 0.025 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Should return right circle area ==> expected: <314.0> but was: <1519.0>
+	at io.javabrains.MathsUtilsTest.testComputeCircleArea(MathsUtilsTest.java:23)
+

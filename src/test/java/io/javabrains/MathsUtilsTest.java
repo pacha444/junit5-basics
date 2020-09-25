@@ -40,7 +40,7 @@ class MathsUtilsTest {
 	}
 	
 	@Test
-	@DisplayName("Test Exception")
+	@DisplayName("Test Exception with assertThrows")
 	void testDivide ()
 	{
 	

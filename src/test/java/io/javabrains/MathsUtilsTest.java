@@ -33,7 +33,7 @@ class MathsUtilsTest {
 	{
 	
 		assertAll(
-				()->assertEquals(4,mathsUtils.multiplication(2, 2)),
+				()->assertEquals(1,mathsUtils.multiplication(2, 2)),
 				()->assertEquals(0,mathsUtils.multiplication(2, 0)),
 				()->assertEquals(-2,mathsUtils.multiplication(2, -1))
 				);
